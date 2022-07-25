@@ -1,0 +1,8 @@
+<resources>
+    <string name="logo">My weather</string>
+    <string name="logoSearch">Your city</string>
+    <string name="Search">Search</string>
+    <string name="Temperature">Temperature: </string>
+    <string name="Wind">Wind: </string>
+    <string name="Tap">TAP!</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/oneField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/alex_brush"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Search"
+        android:layout_marginHorizontal="135sp"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="@color/teal_200"
+        android:fontFamily="@font/alex_brush"
+        android:hint="@string/Search"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <EditText
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oneField"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginTop="100sp"
+        android:backgroundTint="@color/teal_200"
+        android:ems="10"
+        android:fontFamily="@font/alex_brush"
+        android:hint="@string/logoSearch"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/teal_200"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="181dp"
+        android:autofillHints="" />
+</RelativeLayout>

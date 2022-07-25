@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/Temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35sp"
+        android:fontFamily="@font/alex_brush"
+        android:layout_marginTop="25sp"
+        android:text="@string/Temperature"
+        android:textColor="@color/teal_200"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/Wind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Temperature"
+        android:layout_marginHorizontal="35sp"
+        android:fontFamily="@font/alex_brush"
+        android:layout_marginTop="25sp"
+        android:text="@string/Wind"
+        android:textColor="@color/teal_200"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/Tap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Wind"
+        android:layout_marginHorizontal="145sp"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="@color/teal_200"
+        android:fontFamily="@font/alex_brush"
+        android:hint="@string/Tap"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>
